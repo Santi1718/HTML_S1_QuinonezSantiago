@@ -1,0 +1,89 @@
+body {
+    background-color: grey; 
+    font-family: 'Arial', sans-serif;
+    font-size: 18px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(86, 114, 173) ;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadido sombreado */
+    padding: 30px;
+    width: 90%;
+    height: 200%
+
+}
+
+#foto {
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px; 
+    object-fit: cover; 
+}
+
+
+.columna1_1 {
+    background-color: rgb(172, 197, 212);
+    padding: 25px;
+    margin: 5px 10px;
+    border: 2px solid #333;
+    border-radius: 8px; 
+}
+
+.columna1_2 {
+    background-color: lightblue; 
+    padding: 25px;
+    margin: 5px 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.contacto {
+    font-family: 'Arial', sans-serif;
+    font-style: italic; 
+    font-weight: bold;
+    color: #444; 
+    padding: 15px;
+    border-radius: 8px; 
+    background-color: rgb(222, 242, 248);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.columna2_1, .hab {
+    background-color: rgb(222, 242, 248);;
+    padding: 24px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    width: 85%;
+}
+
+.a1 {
+    font-family: 'Arial', sans-serif;
+    font-style: italic; 
+    font-weight: bold;
+    color: #444;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgb(222, 242, 248);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.proyecto {
+    background-color: rgb(222, 242, 248);;
+    padding: 40px;
+    margin: 10px 20px;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    width: 70%;
+    height: 55%; 
+}
